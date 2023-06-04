@@ -1,0 +1,11 @@
+body{
+    background-color:deepskyblue;
+}
+caption{
+    background-color:brown;
+}
+table,td{
+    border:solid 2px black;
+    background-color:white;
+    text-align:center;
+}
