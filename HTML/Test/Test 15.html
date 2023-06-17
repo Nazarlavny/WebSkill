@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Test 15</title>
+        <style>
+             fieldset{
+                width: 350px;
+            }
+            button{
+                margin-top: 15px;
+                background: gray;
+                border: 2px solid black;
+            }
+            button:hover{
+                background: silver;
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <form align="center">
+            <fieldset>
+                <legend>Оберіть товар:</legend>
+                <select multiple size="4">
+                    <option>Телевізор</option>
+                    <option selected>Ноутбук</option>
+                    <option>Телефон</option>
+                    <option disabled>Бритва</option>
+                </select>
+                <br>
+                Оберіть марку:<br>
+                <input type="radio" name="m">Samsung
+                <input type="radio" name="m">LG
+                <input type="radio" name="m">Apple
+                <input type="radio" name="m" checked>Oppo
+                <br>
+                Оберіть вид дому:<br>
+                <input type="checkbox" checked>Квартира
+                <input type="checkbox">Будинок
+                <input type="checkbox" disabled>Дачний будинок
+                <br>
+                Оберіть доставку:<br>
+                <input type="radio" name="d">Кур'єр
+                <input type="radio" name="d">Пошта
+                <input type="radio" name="d" disabled>Самовивіз
+                <br>
+                Оберіть країну виготовлення:<br>
+                <select>
+                    <option>Україна</option>
+                    <option>Японія</option>
+                    <option>Німеччина</option>
+                    <option>Китай</option>
+                </select>
+                <br>
+                <button>Замовити</button>
+                <button>Відмовитись</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
