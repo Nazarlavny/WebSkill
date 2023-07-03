@@ -1,0 +1,17 @@
+import turtle as t
+t.tracer(100)
+t.bgcolor('black')
+color=('gold','silver')
+t.ht()
+t.width(10)
+for i in range(400):
+    t.pencolor(color[i%2])
+    t.begin_fill()
+    t.fd(i)
+    t.rt(90)
+    t.fd(i)
+    t.circle(22,90)
+    t.circle(i,90)
+    t.rt(272)
+    t.end_fill()
+t.done()
