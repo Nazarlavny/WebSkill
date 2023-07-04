@@ -23,6 +23,5 @@ while True:
         k.end_fill()
         time.sleep(0.1)
         if n == 30:
-            
             k.clear()
 done()
