@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.wolf{
+    position: fixed;
+    top: 2%;
+    width: 30%;
+    height: 25%;
+}
+.hud{
+    position: fixed;
+    top: 4%;
+    left: 72%;
+    width: 25%;
+    height: 30%;
+}
+textarea{
+    position: fixed;
+    background: none;
+    color: white;
+    font-size: 14px;
+    font-family: Arial;
+    top: 73%;
+    resize: none;
+    left: 2%;
+    width: 30%;
+    height: 15%;
+    border: 5px double #757223;
+}
+input{
+    position: fixed;
+    top: 89%;
+    left: 2%;
+    width: 30%;
+    height: 3%;
+    border: 5px double #757223;
+}
+.back{
+    position: fixed;
+    top: 94%;
+    left: 2%;
+    height: 5%;
+    background: black;
+    border: 5px double black;
+    color: #b6b6b6;
+}
+.back:hover{
+    border: 5px double #b6b6b6;
+}

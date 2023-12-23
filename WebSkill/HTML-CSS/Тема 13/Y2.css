@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #cddbe3;
+}
+img{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 15px;
+    border: 2px solid #aa12fa;
+    float:left;
+}
+div{
+    margin-top: 10px;
+}
+h1{
+    color:#ea0a2a;
+}
+p{
+    font-family: Consolas;
+    font-size: 16px;
+}
+span{
+    font-size: 18px;
+    color: red;
+    font-family: Arial Black;
+}
+a{
+    border: 1px solid #333; 
+    padding: 5px 15px; 
+    text-decoration: none; 
+    color: #000;
+}
+a:hover {
+    color: #a00;
+}

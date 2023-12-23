@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Y2</title>
+		<link rel="stylesheet" href="Y2.css">
+	</head>
+	<body>
+       <h1>Замовлення техніки</h1>
+        <form align="center">
+            <fieldset>
+                <legend>Оберіть товар:</legend>
+                <select multiple size="5">
+                    <option>Телевізор</option>
+                    <option selected>Ноутбук</option>
+                    <option>Холодильник</option>
+                    <option disabled>Мікрохвильова піч</option>
+                    <option>Електрична плитка</option>
+                </select>
+                <br>
+                Оберіть марку:<br>
+                <input type="radio" name="m">Samsung
+                <input type="radio" name="m" checked>LG
+                <input type="radio" name="m" disabled>Gorenje
+                <input type="radio" name="m">Mastercook
+                <br>
+                Оберіть вид дому:<br>
+                <input type="checkbox" checked>Квартира
+                <input type="checkbox">Будинок
+                <input type="checkbox" disabled>Дачний будинок
+                <br>
+                Оберіть доставку:<br>
+                <input type="radio" name="d">Кур'єр
+                <input type="radio" name="d" disabled>Пошта
+                <input type="radio" name="d">Самовивіз
+                <br>
+                Оберіть країну виготовлення:<br>
+                <select>
+                    <option>Україна</option>
+                    <option>Японія</option>
+                    <option>Німеччина</option>
+                    <option>Китай</option>
+                </select>
+                <br>
+                <button>Замовити</button>
+                <button>Відмовитись</button>
+            </fieldset>
+        </form>
+	</body>
+</html>

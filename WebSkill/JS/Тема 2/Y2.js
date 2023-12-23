@@ -1,0 +1,21 @@
+let val1 = 20;
+let val2 = 10;
+let val3 = 30;
+let val4 = 40;
+let res1 = val1 + val2;
+let res2 = val3 - val4;
+
+let result = val1 - val2;
+console.log(`Результат:${val1} - ${val2} = ${result}`);
+let results = val1 + val2 + val3;
+console.log(`Результат:${val1} + ${val2} + ${val3} = ${results}`);
+let resultss = val1 + val2 * val3;
+console.log(`Результат:${val1} + ${val2} * ${val3} = ${resultss}`);
+let resul = val1 * val2 - val3;
+console.log(`Результат:${val1} * ${val2} - ${val3} = ${resul}`);
+let resu = res1 * res2;
+console.log(`Результат:${res1} * ${res2} = ${resu}`);
+let res = (res1 * res2) / res1;
+console.log(`Результат:(${res1} * ${res2}) / ${res1} = ${res}`)
+let re =((val1 + val1) / (val1 - val1)) * (val1 * (val1 - (val1 * val1)));
+console.log(`Результат:((${val1} + ${val1}) / (${val1} - ${val1})) * (${val1} * (${val1} -(${val1} * ${val1}))) = ${re}`)

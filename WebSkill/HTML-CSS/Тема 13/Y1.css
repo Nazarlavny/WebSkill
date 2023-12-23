@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.b{
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    left: 15.25%;
+    top: 36%;
+}
+.c{
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    top: 73%;
+    left: 54%;
+}
+.d{
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    top: 35%;
+    left: 70%;
+}
+.e{
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    top: 60%;
+    left: 5%;
+}
+.f{
+    position: fixed;
+    height: 70px;
+    width: 70px;
+    top: 10%;
+    left: 35%;
+}
+.g{
+    position: fixed;
+    height: 65px;
+    width: 65px;
+    top: 75%;
+    left: 85%;
+}

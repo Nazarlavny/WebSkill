@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px 0;
+	color: #444444;
+    background: #EBEBEB;
+}
+
+h2 {
+    font: normal 54px Georgia;
+    letter-spacing: -3px;
+    color: #000000;
+}
+
+h3 {
+    font-weight: normal;
+    color: #000000;
+}
+
+p {
+    padding: .75em 0;
+    line-height: 2em;
+    text-align: justify;
+}
+
+p.subtitle {
+    float: right;
+    padding: 0 30px 0 0;
+    font: 20px/120px Georgia, Times, serif;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+    color: #999999;
+}
+
+a {
+    color: #F0A003;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+header {
+    height: 120px;
+}
+
+header h2 {
+    float: left;
+    line-height: 120px;
+    padding-left: 30px;
+}
+
+header h2 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav {
+    clear: both;
+    height: 84px;
+    padding-left: 30px;
+    margin-bottom: 60px;
+    background: #EA9B23;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+    font-size: 1.2em;
+    line-height: 76px;
+    text-transform: lowercase;
+}
+
+nav ul li a {
+    display: block;
+    float: left;
+    padding: 0 40px;
+    height: 84px;
+    color: #F7DAAF;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #F9E6C8;
+}
+
+nav ul li.active a:hover {
+    color: #F7DAAF;
+}
+
+.sidebar {
+    float: left;
+    width: 270px;
+    padding: 0 0 20px 30px;
+}
+
+.sidebar h3 {
+    font: normal 1.75em Georgia, Times, serif;
+    letter-spacing: -1px;
+}
+
+.sidebar .boxtxt {
+    padding: .25em 0 3.25em 0;
+}
+
+.sidebar p {
+    text-align: left;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 1em 0 4em 0;
+}
+
+.sidebar ul li {
+    padding-left: 16px;
+    line-height: 3em;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.content {
+    float: right;
+    width: 570px;
+    padding: 0 30px 10px 0;
+}
+
+.content .post {
+    padding: 0 0 4em 0;
+}
+
+.content h3 {
+    font: normal 3em Georgia, Times, serif;
+    letter-spacing: -2px;
+}
+
+.content h3 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+p.postmeta {
+    color: #888888;
+}
+
+.content .entry {
+    padding: .75em 0 0 0;
+}
+
+p.readmore {
+    padding-right: 2em;
+    text-align: right;
+}
+
+p.readmore a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #E9E9E9;
+}
+
+p.readmore a:hover {
+    background: #FCF3E6;
+}
+
+footer {
+    clear: both;
+    height: 1%;
+    padding: 2em 30px;
+    border-top: 1px solid #E9E9E9;
+}
+
+footer p {
+    text-align: center;
+}

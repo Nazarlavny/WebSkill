@@ -1,0 +1,49 @@
+body{
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 15px;
+}
+img{
+    width: 220px;
+    height: 270px;
+}
+.nikname{
+    width: 765px;
+}
+fieldset{
+    height: 350px;
+    background: gray;
+    display: inline-block;
+}
+.assasin{
+    border: 3px solid red;
+}
+select{
+    background: green;
+    width: 160px;
+    height: 30px;
+    border: 2px solid white;
+    font-family: cursive;
+    font-size: 16px;
+}
+.more{
+    height:auto;
+}
+button{
+    width: 150px;
+    height: 35px;
+    background-color: goldenrod;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+button:hover{
+    background-color: purple;
+    color: yellow;
+}
+
+.fset{
+    vertical-align: middle;
+}

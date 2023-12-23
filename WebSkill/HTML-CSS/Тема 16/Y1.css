@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    position: fixed;
+    top: 5%;
+    left: 8.5%;
+    width: 18%;
+    height: 23%;
+}
+form{
+    position: fixed;
+    top: 35%;
+    left: 8.7%;
+    width: 100%;
+    height: 100%;
+}
+button{
+    width: 17.5%;
+    height: 6%;
+    background: none;
+    border: none;
+    color: #b6b6b6;
+    font-family: Arial;
+}
+button:hover{
+    border: 5px double #b6b6b6;
+}
+.addons{
+    position: fixed;
+    top: 70%;
+    left: 8.5%;
+    width: 18%;
+    height: 26%;
+}
+a{
+    position: fixed;
+    top: 93.5%;
+    left: 87%;
+    text-decoration: none;
+    color: #b6b6b6;
+    font-family: Arial;
+}

@@ -1,0 +1,56 @@
+body{
+    background: aqua;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+}
+.main li{
+    width: 200px;
+    height: 50px;
+    background-color: skyblue;
+}
+.catalog li{
+    width: 200px;
+    height: 30px;
+    padding-top: 10px;
+}
+.catalog{
+    top: 70px;
+    left: -41px;
+    position: absolute;
+    display: none;
+}
+.show:hover .catalog{
+    display: block;
+}
+li:hover{
+    background: black;
+}
+li:hover a{
+    color: yellow;
+}
+li{
+    list-style-type: none;
+}
+a{
+    font-size: 18px;
+    color: white;
+    font-family: cursive;
+    text-decoration: none;
+}
+img{
+    float: right;
+    margin-left: 15px;
+    width: 1250px;
+}
+.info{
+    padding-top: 20px;
+    font-family: Tahoma;
+    text-align: justify;
+}

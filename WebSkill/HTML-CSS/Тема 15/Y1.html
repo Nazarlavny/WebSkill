@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Y1</title>
+        <link rel="stylesheet" href="Y1.css">
+    </head>
+    <body>
+        <h1 align="center">Виберіть зовнішність персонажа гри</h1>
+        <form align="center">
+            <fieldset class="nikname fset">
+                <legend>Нікнейм вашого персонажа</legend>
+                <input type="text" placeholder="Введіть нікнейм">
+                <input type="password" placeholder="Введіть пароль"><br><br>
+                <img src="images/player.png" title="Асасін" class="assasin">
+                <img src="images/player2.png" title="Кратос">
+                <img src="images/player3.png" title="Ахілес">
+            </fieldset>
+            <fieldset class="main fset">
+                <legend>Основні характеристики та персонаж</legend>
+                Стать персонажа:<br>
+                <input type="radio" name="m" checked>Чоловік
+                <input type="radio" name="m">Жінка
+                <br>
+                Раса:<br>
+                <select>
+                    <option>Людина</option>
+                    <option selected>Ельф</option>
+                    <option>Орк</option>
+                    <option>Демон</option>
+                </select>
+                <br>
+                Клас:<br>
+                <select>
+                    <option>Воїн</option>
+                    <option selected>Лучник</option>
+                    <option>Маг</option>
+                    <option>Цілитель</option>
+                    <option>Лицар</option>
+                    <option>Берсерк</option>
+                </select>
+                <br>
+                Виберіть додаткові можливості:<br>
+                <input type="checkbox"> Телепорт
+                <input type="checkbox" disabled> Можливість літати
+                <input type="checkbox" checked> Швидкий біг
+                <input type="checkbox"> Високі прижки
+                <br>
+                <fieldset class="more">
+                    <legend>Додаткові навики персонажа</legend>
+                    Atc
+                    <select>
+                        <option>Крит удари</option>
+                        <option>Швидкість атаки</option>
+                    </select>
+                    <br>
+                    Def
+                    <select>
+                        <option>Кам'яна шкіра</option>
+                        <option>Ухилення</option>
+                    </select>
+                </fieldset>
+				<br>
+                <button>Збереги вибір</button>
+                <button>Повернутись</button>
+            </fieldset>
+        </form>
+    </body>
+</html>

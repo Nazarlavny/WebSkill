@@ -1,0 +1,14 @@
+body{
+    background-color: silver;
+}
+h1{
+    color: purple;
+}
+hr{
+    background-color:green;
+    width: 45%;
+    height: 5px;
+}
+p{
+    color:maroon;
+}

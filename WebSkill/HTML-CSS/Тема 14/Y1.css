@@ -1,0 +1,23 @@
+form{
+	background: silver;
+	font-family: cursive;
+	border: 2px solid black;
+	border-radius: 15px;
+	width: 300px;
+}
+input{
+	width: 250px;
+}
+.submit{
+	width: 150px;
+	height: 25px;
+	background: yellow;
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-family: cursive;
+	border-radius: 15px;
+}
+.submit:hover{
+	background: red;
+	color: white;
+}
